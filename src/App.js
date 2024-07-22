@@ -25,17 +25,17 @@ const App = () => {
           </ul>
         </nav>
 
-        <Routes> {/* Changed from Switch to Routes */}
-          {/* Route for the Todo List */}
-          <Route path="/" element={<TodoList />} /> {/* Changed from component to element */}
-          <Route path="/todos/:id" element={<TodoDetail />} /> {/* Changed from component to element */}
+        <Routes> 
+          
+          <Route path="/" element={<TodoList />} /> 
+          <Route path="/todos/:id" element={<TodoDetail />} /> 
 
-          {/* Route for the Counter App */}
-          <Route path="/counter" element={<CounterApp />} /> {/* Changed from component to element */}
+          
+          <Route path="/counter" element={<CounterApp />} /> 
 
-          {/* Route for Movie Search App */}
-          <Route path="/movies" element={<MovieSearch />} /> {/* Changed from component to element */}
-          <Route path="/movies/:id" element={<MovieDetail />} /> {/* Changed from component to element */}
+          
+          <Route path="/movies" element={<MovieSearch />} /> 
+          <Route path="/movies/:id" element={<MovieDetail />} /> 
         </Routes>
       </div>
     </Router>

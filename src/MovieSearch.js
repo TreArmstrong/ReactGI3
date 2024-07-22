@@ -5,7 +5,7 @@ const MovieSearch = () => {
   const [query, setQuery] = useState('');
   const [movies, setMovies] = useState([]);
 
-  const API_KEY = '66ec7939c6891335ec73af1e8517344c'; // Your TMDb API Key
+  const API_KEY = '66ec7939c6891335ec73af1e8517344c'; 
 
   const searchMovies = async () => {
     if (!query) return;

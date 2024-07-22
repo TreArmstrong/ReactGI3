@@ -5,7 +5,7 @@ const MovieDetail = () => {
   const { id } = useParams();
   const [movie, setMovie] = useState(null);
   const [loading, setLoading] = useState(true);
-  const API_KEY = '66ec7939c6891335ec73af1e8517344c'; // Your TMDb API Key
+  const API_KEY = '66ec7939c6891335ec73af1e8517344c'; 
 
   useEffect(() => {
     const fetchMovieDetails = async () => {

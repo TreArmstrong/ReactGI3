@@ -1,7 +1,7 @@
 body {
   background-color: rgba(230, 0, 255, 0.844);
-  margin: 0; /* Remove default margins */
-  height: 100vh; /* Make sure the body is the full height of the viewport */
+  margin: 0; 
+  height: 100vh; 
 }
 
 nav {
@@ -48,30 +48,30 @@ nav ul li a:hover:before {
 }
 
 button {
-  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
-  color: white; /* Text color */
-  border: none; /* No border */
-  border-radius: 30px; /* Rounded corners */
-  padding: 15px 30px; /* Top & bottom padding, left & right padding */
-  font-size: 18px; /* Text size */
-  font-weight: bold; /* Bold text */
-  text-transform: uppercase; /* Uppercase text */
-  text-align: center; /* Centered text */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: all 0.3s ease; /* Smooth transition */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  background: linear-gradient(135deg, #6a11cb, #2575fc); 
+  color: white; 
+  border: none; 
+  border-radius: 30px; 
+  padding: 15px 30px; 
+  font-size: 18px; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  text-align: center; 
+  cursor: pointer; 
+  transition: all 0.3s ease; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
 }
 
-/* Hover effect */
+
 button:hover {
-  background: linear-gradient(135deg, #2575fc, #6a11cb); /* Reverse gradient on hover */
-  transform: translateY(-2px); /* Slight elevation effect */
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25); /* Enhanced shadow */
+  background: linear-gradient(135deg, #2575fc, #6a11cb); 
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25); 
 }
 
-/* Active effect */
+
 button:active {
-  transform: translateY(1px); /* Subtle press effect */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow back to normal */
+  transform: translateY(1px); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
 }
 
